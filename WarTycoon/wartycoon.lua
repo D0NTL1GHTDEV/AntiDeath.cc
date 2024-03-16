@@ -19,3 +19,7 @@ local BasicScriptsSection = ScriptsLoaderTab:NewSection("Basic Scripts")
 local InfiniteYieldButton = ScriptsLoaderTab:NewButton("Load Infinite Yield", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
+
+local UniversalSilentAimButton = ScriptsLoaderTab:NewButton("Load Universal Silent Aimbot", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+end)
