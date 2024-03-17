@@ -12,6 +12,10 @@ library:Introduction()
 wait(1)
 local Init = library:Init()
 
+local TeleporterTab = Init:NewTab("Teleporter")
+
+local BaseTeleportSection = TeleporterTab:NewSection("Base Teleport")
+
 local ScriptsLoaderTab = Init:NewTab("Script Loader")
 
 local BasicScriptsSection = ScriptsLoaderTab:NewSection("Basic Scripts")
